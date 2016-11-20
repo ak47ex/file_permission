@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="134.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.araneus.controller.screens.FileLoaderScreen">
+   <children>
+      <HBox layoutX="78.0" layoutY="82.0" prefHeight="19.0" prefWidth="210.0">
+         <children>
+            <Button fx:id="openPttFileButton" mnemonicParsing="false" style="-fx-min-width: 100;" text="OPEN_PTT_FILE" textAlignment="CENTER" />
+            <Separator prefWidth="200.0" />
+            <Button fx:id="createNewPttFileButton" mnemonicParsing="false" style="-fx-min-width: 100;" text="CREATE_NEW_PTT_FILE" />
+         </children>
+      </HBox>
+   </children>
+</BorderPane>
